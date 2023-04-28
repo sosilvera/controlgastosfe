@@ -1,0 +1,53 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .card {
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  
+  .card span {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .card__title {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .card__number {
+    font-size: 60px;
+  }
+  
+  .button-container {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    background-color: #32CD32;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .button:hover {
+    background-color: #2E8B57;
+  }
