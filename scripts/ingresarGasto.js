@@ -13,7 +13,7 @@ function calcularValorCuota(monto, cantidadCuotas, tieneIntereses) {
 function cargarBancos() {
     const selectBancos = document.getElementById("idBanco");
   
-    fetch("http://controlgastosbe.azurewebsites.net/bancos")
+    fetch("https://controlgastosbe.azurewebsites.net/bancos")
       .then((response) => response.json())
       .then((data) => {
         data.forEach((banco) => {
@@ -70,7 +70,7 @@ form.addEventListener('submit', function (event) {
       valor_cuota: valorCuota,
     };
   
-    fetch('http://controlgastosbe.azurewebsites.net/gasto', {
+    fetch('https://controlgastosbe.azurewebsites.net/gasto', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -1,4 +1,4 @@
-const consumosMesUrl = 'http://controlgastosbe.azurewebsites.net/consumosMes';
+const consumosMesUrl = 'https://controlgastosbe.azurewebsites.net/consumosMes';
 
 // Hacer una petición GET a la URL del servicio y obtener los datos
 fetch(consumosMesUrl)

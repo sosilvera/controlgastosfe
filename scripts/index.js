@@ -12,8 +12,8 @@ const totalBanco2 = document.querySelector('#totalBanco2');
 const totalBanco3 = document.querySelector('#totalBanco3');
 
 // Obtener los datos del servicio correspondiente
-const servicio_gastoProximoMes = 'http://controlgastosbe.azurewebsites.net/gastoProximoMes';
-const servicio_totalesTarjeta = 'http://controlgastosbe.azurewebsites.net/totalesTarjeta';
+const servicio_gastoProximoMes = 'https://controlgastosbe.azurewebsites.net/gastoProximoMes';
+const servicio_totalesTarjeta = 'https://controlgastosbe.azurewebsites.net/totalesTarjeta';
 
 // Actualizar la información de la página
 function actualizarInformacion() {
