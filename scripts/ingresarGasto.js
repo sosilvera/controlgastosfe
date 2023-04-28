@@ -72,6 +72,7 @@ form.addEventListener('submit', function (event) {
   
     fetch('https://controlgastosbe.azurewebsites.net/gasto', {
       method: 'POST',
+      mode: 'cors',
       headers: {
         'Content-Type': 'application/json',
       },
